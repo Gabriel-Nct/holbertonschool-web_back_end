@@ -11,7 +11,7 @@ a random delay between 0 and max_delay
 """
 
 
-async def wait_random(max_delay: int = 10):
+async def wait_random(max_delay: int = 10) -> float:
     """
     an asynchronous coroutine and that waits for
     a random delay between 0 and max_delay
