@@ -2,9 +2,13 @@
 """
 This module provides a function to sum all the elements of a lists.
 """
+from typing import List
+"""
+Function to sum all the elements of a list
+"""
 
 
-def sum_list(input_list: float) -> float:
+def sum_list(input_list: List[float]) -> float:
     """
     Function to sum all the elements of a list
     Args:
