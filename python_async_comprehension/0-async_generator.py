@@ -2,7 +2,6 @@
 """Module that contains an asynchronous generator function"""
 import asyncio
 import random
-from typing import Generator
 """
 coroutine called async_generator that takes no arguments
 """
