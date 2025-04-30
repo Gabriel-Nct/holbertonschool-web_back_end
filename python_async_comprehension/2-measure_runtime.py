@@ -10,7 +10,7 @@ import asyncio, time and async_comprehesion from 1-async_comprehension
 """
 
 
-async def measure_runtime():
+async def measure_runtime() -> float:
     """
     Measure total runtime of four parallel async_comprehensions
     """

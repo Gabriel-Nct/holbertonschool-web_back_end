@@ -2,12 +2,13 @@
 """Module that contains an asynchronous generator function"""
 import asyncio
 import random
+from typing import Generator
 """
 coroutine called async_generator that takes no arguments
 """
 
 
-async def async_generator():
+async def async_generator() -> Generator[float, None, None]:
     """
     Asynchronous coroutine designed to produce a
     sequence of 10 random numbers ranging from 0 to 10.
